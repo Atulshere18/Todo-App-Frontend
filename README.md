@@ -1,4 +1,3 @@
-Sure! Here’s a detailed **README** file content that you can use for your project:
 
 ---
 
@@ -9,7 +8,6 @@ This is a **To-Do List App** designed to help users organize their tasks and imp
 ## Features
 
 * **User Authentication**: Sign up and log in to manage your tasks securely.
-* **Task Management**: Add, remove, and track your tasks.
 * **Responsive Design**: The app works well on both desktop and mobile devices.
 * **Interactive Modals**: The sign-up modal makes user registration seamless.
 * **Styled Components**: Clean and modern UI with CSS3 and responsive design.
@@ -25,7 +23,6 @@ This is a **To-Do List App** designed to help users organize their tasks and imp
 
 Before you begin, ensure you have the following installed:
 
-* **Node.js**: Download and install from [Node.js official website](https://nodejs.org/).
 * **npm (Node Package Manager)**: Comes with Node.js.
 
 ## Installation
@@ -59,8 +56,7 @@ Before you begin, ensure you have the following installed:
 ## How to Use
 
 1. **Sign Up or Log In**: Use the sign-up modal to create a new account, or log in if you already have an account.
-2. **Manage Tasks**: After logging in, you can add tasks, mark them as completed, or delete them.
-3. **Responsive Layout**: The app adjusts automatically to fit both mobile and desktop screens.
+2. **Responsive Layout**: The app adjusts automatically to fit both mobile and desktop screens.
 
 ## File Structure
 
@@ -91,14 +87,6 @@ If you'd like to contribute to the project, follow these steps:
 4. **Push to the branch** (`git push origin feature-name`).
 5. **Create a pull request**.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-* Inspiration from modern task management applications.
-* Special thanks to **React.js** and **CSS** for making the development process smooth.
 
 ---
 
