@@ -1,0 +1,28 @@
+/* styles.css */
+
+* {
+
+ max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 15px; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+/* Responsive utility example */
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem;
+  }
+}

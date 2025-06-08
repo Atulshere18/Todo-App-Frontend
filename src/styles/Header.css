@@ -1,0 +1,175 @@
+.main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 20px;
+  width: 100%;
+  background-color: white;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.nav-item {
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 6px 0;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #f44336;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.auth-buttons button {
+  width: 100%;
+}
+
+.login-btn,
+.signup-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.login-btn {
+  background: white;
+  border: 2px solid #FF3E54;
+  color: #FF3E54;
+}
+
+.login-btn:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.signup-btn {
+  background-color: #FF3E54;
+  border: 2px solid #FF3E54;
+  color: white;
+}
+
+.signup-btn:hover {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.done {
+  background-color: #FF3E54;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.done:hover {
+  background-color: #d32f2f;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #f44336;
+  cursor: pointer;
+}
+.gender {
+display: flex;
+}
+.language {
+display: flex;
+}
+.name-fields{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  text-align: start;
+}
+.p{
+font-size: 24px;
+font-weight: 600;
+text-align: start;
+}
+.p-1{
+  text-align: start;
+}
+/* Responsive Layouts */
+@media (min-width: 600px) {
+  .main2 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: auto;
+  }
+
+  .nav-item {
+    font-size: 1.1rem;
+    padding: 0 10px;
+  }
+
+  .auth-buttons {
+    flex-direction: row;
+    margin-top: 0;
+    gap: 10px;
+    width: auto;
+  }
+
+  .auth-buttons button {
+    width: 140px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    width: 150px;
+  }
+
+  .nav-item {
+    font-size: 1.2rem;
+  }
+
+  .login-btn,
+  .signup-btn {
+    width: 152px;
+    height: 50px;
+  }
+}
